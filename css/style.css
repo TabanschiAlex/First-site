@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: #666666;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+    /* ===Container=== */
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+    /* ===Header=== */
+
+.header {
+
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #009999;
+    font-family: 'Manjari', sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+    /* ===Nav=== */
+
+.nav {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.nav__link {
+    margin-left: 40px;
+    color: #666666;
+    text-decoration: none;
+    opacity: 0.6;
+    transition:  opacity 0.2s linear;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+    /* ===Intro=== */
+
+.intro {
+    height: 539px;
+    background: #00767e url("../images/intro.png") center no-repeat /cover;
+    display: flex;
+    position: relative;
+}
+
+.intro__circle {
+    height: 452px;
+    background: 
+    url("../images/circle.png") no-repeat;
+    margin-top: -190px;
+}
+
+.intro__data {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.intro__world {
+    margin-left: 512px;
+    margin-top: 180px;
+    background: 
+    url("../images/world.png") left no-repeat;
+    height: 55px;
+}
+
+.intro__world__text {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 580px;
+    margin-top: -325px;
+    text-transform: uppercase;
+}
+
+.intro__maintext {
+    margin-left: 512px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.intro__phone {
+    background: 
+    url("../images/phone.png") left no-repeat;
+    height: 446px;
+    margin-top: -338px;
+    margin-left: 100px;
+}
+
+.intro__undertext {
+    margin-left: 512px;
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+.intro__button {
+    width: 170px;
+    height: 45px;
+    background: #54d3c3;
+    margin-left: 512px;
+    margin-top: -70px;
+    color: white;
+    text-decoration: none;
+    transition:  opacity 0.2s linear;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    font-weight: 300;
+    
+}
+
+.intro__button:hover {
+    background: #259d8e;
+}
+
+    /* === Content1 === */
+
+.two {
+    height: 755px;
+    background: #fff;
+    display: grid;
+}
+
+.two__img1 {
+    background:
+    url("../images/img1.png") center no-repeat;
+    height: 415px;
+    margin-top: 170px;
+}
+
+    /* === Content2 === */
+
+.three {
+    height: 698px;
+    background: #00767e url("../images/background_content2.png") center no-repeat /cover;
+    position: relative;
+    display: grid;
+}
+
+.three__laptop {
+    background:
+    url("../images/laptop.png") center no-repeat;
+    height: 330px;
+    margin-left: -500px;
+    margin-top: 184px;
+}
+
+.three__maintext {
+    margin-left: 500px;
+    margin-top: -300px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.three__undertext {
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 660px;
+    margin-top: -260px;
+    text-align: center;
+    color: #fff;
+}
+
+.three__button {
+    width: 170px;
+    height: 45px;
+    background: #54d3c3;
+    margin-left: 360px;
+    margin-top: -200px;
+    color: white;
+    text-decoration: none;
+    transition:  opacity 0.2s linear;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    font-weight: 300;
+}
+
+.three__button:hover {
+    background: #259d8e;
+}
+
+    /* === Four === */
+
+.four {
+    height: 512px;
+    background: #fff;
+    display: grid;
+    position: relative;
+}
+
+.four__text {
+    font-family: 'Manjari', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 75px;
+    justify-content: center;
+    margin-left: -500px;
+    text-transform: uppercase;
+    color: #49d7b0;
+}
+
+#percent {
+    font-size: 120px;
+}
+
+.exp {
+    width: 496px;
+    height: 512px;
+    background: #49d7b0;
+    margin-left: 500px;
+    margin-top: -467px;
+}
+
+.four__increase {
+    background:
+    url("../images/increase.png") center no-repeat;
+    height: 222px;
+    margin-top: -368px;
+    margin-left: 498px;
+}
+
+    /* === Footer === */
+
+.footer {
+    height: 101px;
+}
+
+.footer__line {
+    margin: 0 auto;
+	border: none;
+	border-top: 2px solid #dedede;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Manjari', sans-serif;
+}
